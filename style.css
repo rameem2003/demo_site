@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.head{
+    background-color: #0C0E36;
+}
+.containt{
+    display: flex;
+    padding: 20px;
+}
+.head .left{
+    width: 40%;
+}
+.head .right{
+    width: 60%;
+}
+
+.head .right ul{
+    list-style-type: none;
+}
+.head .right ul li{
+    display: inline-block;
+}
+.head .right ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+.head .right ul li a:hover{
+    color: yellow;
+}
+
+.head .right ul li .active:active{
+    color: yellow;
+}
+
+.banner{
+    background-color: #10103A;
+    height: 88.9vh;
+}
+
+.banner-containt{
+    display: flex;
+    padding: 30px;
+}
+
+.banner-containt .left{
+    width: 50%;
+    color: white;
+    margin-right: 70px;
+}
+.banner-containt .left h1{
+    margin-top: 20px;
+    font-size: 45px;
+}
+.banner-containt .left h2{
+    margin: 20px 0;
+    color: yellow;
+}
+
+.banner-containt .left p{
+    font-size: 17px;
+}
+
+.banner-containt .left button{
+    padding: 10px 30px;
+    margin-top: 30px;
+}
+
+.banner-containt .right{
+    width: 40%;
+}
+
+.banner-containt .right img{
+    max-width: 120%;
+}
+
+.about{
+    text-align: center;
+}
+
+.about h1,p{
+    padding: 40px 0;
+}
+
+.about button{
+    padding: 10px 30px;
+    background-color: black;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.service{
+    background-color: #10103A;
+    color: white;
+    padding: 30px 0;
+}
+
+.service-head{
+    text-align: center;
+}
+.service-head p{
+    padding: 20px;
+}
+
+.service-containt{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.service-containt .box{
+    width: 25%;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    margin: 25px 25px;
+    transition: 0.5s;
+
+}
+
+.service-containt .box img{
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.service-containt .box p{
+    padding: 20px;
+}
+
+.service-containt .box:hover{
+    background-color: #202072;
+}
+
+.strategy{
+    padding: 30px 0;
+    height: 800px;
+}
+
+.box-containt{
+    width: 25%;
+    border-radius: 8px;
+    text-align: center;
+    margin: 25px 47px;
+    transition: 0.5s;
+}
+
+.box-containt .inner{
+    border-radius: 8px;
+    box-shadow: 5px 10px 8px 10px #29212121;
+}
+
+.box-containt .inner img{
+    margin: 20px 0;
+}
+
+.box-containt .btn button{
+    margin-top: 25px;
+    padding: 10px 25px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.contact{
+    background-color: #10103A;
+    position: relative;
+    padding: 30px;
+    padding-top: 70px;
+}
+.contact .form-part{
+    position: absolute;
+    left: 38%;
+    top: -165px;
+
+}
+.contact form{
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #10103A;
+    margin: 0 auto;
+}
+
+.contact form input{
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.contact form input[type="submit"]{
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+.contact .details{
+    text-align: center;
+    color: white;
+    margin-top: 120px;
+}
+
+.contact .details p{
+    width: 650px;
+    margin: 0 auto;
+}
+
+
+.footer p{
+    text-align: center;
+}
