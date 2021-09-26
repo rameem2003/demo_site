@@ -1,0 +1,105 @@
+/*
+##################################
+#                                #
+#           Smartphone           #
+#                                #
+##################################
+*/
+
+@media screen and (max-width: 420px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .head .containt{
+        display: block;
+    }
+    .head .containt .left{
+        width: 100%;
+    }
+    .head .containt .left img{
+        margin: 0 auto;
+        display: block;
+    }
+    .head .containt .right{
+        width: 100%;
+        display: block;
+    }
+
+    .head .containt .right ul li a span{
+        display: none;
+    }
+    .head .containt .right ul li a i{
+        padding: 10px 2px;
+    }
+
+
+
+    .banner .banner-containt .left{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .banner .banner-containt .left button{
+        margin-top: 20px;
+    }
+
+    .banner .banner-containt .right{
+        display: none;
+    }
+
+
+
+    .about img{
+        max-width: 100%;
+    }
+
+
+
+    .service-containt{
+        display: block;
+    }
+    .service-containt .box{
+        display: block;
+        width: 85%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+
+    }
+
+
+
+    .service-containt{
+        display: block;
+    }
+    .service-containt .box-containt{
+        width: 85%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+
+    .contact{
+        position: static;
+        margin-top: 940px;
+        position: relative;
+    }
+    .contact .form-part{
+        position: absolute;
+        display: block;
+        left: 10%;
+        top: -148px;
+    }
+
+    .contact .details{
+        padding-top: 40px;
+    }
+    .contact .details p{
+        width: 100%;
+    }
+}
