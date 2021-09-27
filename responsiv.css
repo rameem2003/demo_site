@@ -39,7 +39,9 @@
     }
 
 
-
+    .banner{
+        height: auto;
+    }
     .banner .banner-containt .left{
         width: 100%;
         text-align: center;
