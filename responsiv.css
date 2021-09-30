@@ -18,13 +18,7 @@
     }
     
 
-    nav .left{
-        width: 100%;
-        display: block;
-    }
-    nav .right{
-        width: 0;
-    }
+    
     nav .btn{
         display: inline;
     }
