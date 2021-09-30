@@ -171,7 +171,11 @@
         position: absolute;
         display: block;
         left: 2.5%;
-        top: -148px;
+        top: -94px;
+    }
+
+    .contact .details {
+        padding-top: 70px;
     }
 
 
